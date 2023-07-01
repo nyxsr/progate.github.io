@@ -1,0 +1,101 @@
+/* Phone Smol Device */
+@media all and (max-width:670px){
+    .nav__links{
+        display:none;
+    }
+
+    header{
+        padding: 50px 0px;
+    }
+
+    header h1{
+        letter-spacing: .3rem;
+        font-size:2.5rem;
+    }
+
+    header h2{
+        font-size:1.5rem;
+    }
+
+    header img{
+        width: 60%;
+    }
+
+    .nav__toggle_links{
+        display:block
+    }
+
+    .main__about{
+        padding: 50px 15px;
+    }
+
+    .main__about h3{
+        font-size: 24px;
+    }
+
+    .main__about p{
+        line-height: 1.3rem;
+    }
+
+    .main__projects{
+        padding: 50px 15px;
+        
+    }
+
+    .main__projects_wrapper{
+        flex-direction: column;
+    }
+
+    .main__project img{
+        width: 15rem;
+    }
+
+    .footer__contact{
+        padding: 50px 15px;
+        background-color: #F4F4F4;
+    }
+
+    .footer__contact h3{
+        font-size: 24px;
+    }
+
+    .footer__contact form{
+        width: 90%;
+    }
+
+    .footer__end{
+        flex-direction: column;
+    }
+
+    .footer__nav{
+        margin-top: 2rem;
+    }
+
+    .footer__nav a{
+        text-align: left;
+    }
+}
+
+/* Landscape Tablets or quite big device */
+@media all and (max-width:1200px){
+    .main__about{
+        padding: 50px 45px;
+    }
+
+    .main__projects{
+        padding:100px 50px;
+    }
+    
+    .main__projects_wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .main__project img{
+        width: 15rem;
+    }
+
+    .footer__contact form{
+        width: 90%;
+    }
+}
